@@ -1,0 +1,23 @@
+<Wix xmlns="http://wixtoolset.org/schemas/v4/wxs">
+  <Fragment>
+	  <ComponentGroup Id="SampleFirstAppComponents" Directory="INSTALLFOLDER">
+
+		  <Component>
+			  <File Source="..\SampleFirstApp\bin\Release\net8.0\SampleFirstApp.exe" />
+		  </Component>
+
+		  <Component>
+			  <File Source="..\SampleFirstApp\bin\Release\net8.0\SampleFirstApp.dll" />
+		  </Component>
+
+		  <Component>
+			  <File Source="..\SampleFirstApp\bin\Release\net8.0\SampleFirstApp.deps.json" />
+		  </Component>
+
+		  <Component>
+			  <File Source="..\SampleFirstApp\bin\Release\net8.0\SampleFirstApp.runtimeconfig.json" />
+		  </Component>
+
+	  </ComponentGroup>
+  </Fragment>
+</Wix>
