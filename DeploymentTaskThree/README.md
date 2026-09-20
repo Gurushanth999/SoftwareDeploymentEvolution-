@@ -21,6 +21,6 @@ WordPress was deployed to the EC2 instance and accessible through the public IPv
 
 ## Repository Files
 
-- `wordpress-setup.sh` – Contains non-sensitive server initialization and WordPress deployment commands for EC2 instance.
+- `wordpress-setup.sh` – Contains non-sensitive initialization & WordPress deployment commands for EC2 instance.
 
-Sensitive information (AWS credentials, SSH private keys, database passwords) is deliberately excluded from this repository.
+Sensitive information (AWS credentials, SSH private keys, database passwords) has been deliberately excluded.
