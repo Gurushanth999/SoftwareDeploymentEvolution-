@@ -1,0 +1,19 @@
+# Install Windows Subsystem For Linux
+wsl --install
+
+
+# Validate WSL installation and version
+wsl --version
+
+  
+# Verify Docker client and server information
+docker info
+
+
+# Pull and execute the official hello-world container image
+docker run hello-world
+
+  
+# Display all containers, including completed containers
+docker ps -a
+  
