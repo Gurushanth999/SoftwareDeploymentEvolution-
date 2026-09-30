@@ -15,5 +15,4 @@ docker run hello-world
 
   
 # Display all containers, including completed containers
-docker ps -a
-  
+docker ps -a  
