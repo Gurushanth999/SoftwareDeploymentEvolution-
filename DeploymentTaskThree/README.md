@@ -1,4 +1,4 @@
-# Deployment Task 3 – AWS EC2 WordPress Deployment
+# AWS EC2 WordPress Deployment
 
 This folder contains material for Task 3.1 of SWE40006 – Software Deployment and Evolution.
 
